@@ -1,20 +1,24 @@
+#include "main.h"
 /**
  * main - Entry point
  *
- * _putchar:a program to print putchar
+ * Description: A  program that prints _putchar, followed by a new line.
  *
  * Return: always 0 (success)
  */
 
-#include<main.h>
 int main(void)
 {
-	char d[] = "_putchar";
+	char k[] = "_putchar";
 
-	for (int count = 0; count <= 8; count++)
+	int i = 0;
+
+	while (k[i] <= 8)
 	{
-		putchar(d[count]);
+		_putchar(k[i]);
+		i++;
+
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
