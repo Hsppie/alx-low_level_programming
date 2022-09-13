@@ -13,7 +13,7 @@ int main(void)
 
 	int i = 0;
 
-	while (k[i] <= 8)
+	while (k[i] != '\0')
 	{
 		_putchar(k[i]);
 		i++;
